@@ -1,0 +1,30 @@
+#banner_bg{
+	background-color: gray;
+	height:100%;
+}
+
+#banner{
+	margin-left:10%;
+	margin-right: 10%;
+	background-color: orange;
+}
+
+#banner h1{
+	text-align: center;
+}
+#banner_name{
+	text-align: right;
+}
+
+#nav_wrapper a{
+	background-color: gray;
+	height:50px;
+}
+
+#nav_wrapper a{
+	text-decoration: none;
+	font-size: 30px;
+	width:25%;
+	float:left;
+	text-align:center;
+}
