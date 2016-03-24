@@ -1,6 +1,20 @@
-#home{
+body{
+	margin: 0;
+	padding: 0;
+}
+
+#home-top{
 	background-image: url("run.jpeg");
-	background-size: cover;
+	background-size: 100%;
+}
+#home-bottom{
+	/*background-image: url("run.jpeg");*/
+	background-image: url("city.jpeg");
+}
+#about{
+	background-image: url("run.jpeg");
+	background-image: url("city.jpeg");
+	background-height:100%;
 }
 
 
@@ -10,6 +24,7 @@
 	margin-right: 10%;
 }
 #banner h3{
+	margin-top: 0;
 	font-family: 'Poiret One', cursive;
 	font-size: 20px;
 	text-align: center;
@@ -25,20 +40,178 @@
 #banner a{
 	text-decoration: none;
 }
-#banner_name{
-	text-align: right;
+#nav_wrapper {
+	display: inline-block;
+	width: 100%;
 }
-
-#nav_wrapper a{
-	font-family: 'Poiret One', cursive;
-	height:50px;
-	color:#38291A;
-}
-
 #nav_wrapper a{
 	text-decoration: none;
 	font-size: 30px;
 	width:33%;
 	float:left;
 	text-align:center;
+	font-family: 'Poiret One', cursive;
+	height:50px;
+	color:#38291A;
+}
+
+.home-low-banner{
+	text-align: center;
+	font-size: 40px;
+	font-family: 'Courgette', cursive;
+}
+
+
+.home-low-head p{
+	text-align: center;
+	font-size: 40px;
+	font-family: 'Courgette', cursive;a
+}
+.low-wrap{
+	width: 33%;
+	float:left;
+	text-align: center;
+}
+
+.home-info p{
+	font-size: 20px;
+	font-family: 'Archivo Narrow', sans-serif;
+	margin-right:5%; 
+	margin-left:5%;
+	text-align: center;
+	display: inline-block;
+	float:left;
+}
+
+
+/*About Page Styling*/
+
+
+.believe{
+	display: inline-block;
+	max-width: 300px;
+	text-align: center;
+	font-size: 30px;
+	font-family: 'Archivo Narrow', sans-serif;
+}
+.about{
+	display:inline-block;
+	max-width: 250px;
+	max-height: 250px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 15%;
+	margin-right: 20%;
+	float:left;
+}
+
+/*Code Work Styling*/
+
+
+.k-banner{
+	display: inline-block;
+	width:50%;
+	margin-left: 25%;
+	margin-right:25%;
+	text-align: center;
+	font-size: 60px;
+	font-family: 'Archivo Narrow', sans-serif;
+}
+.k-info{
+	display: inline-block;
+	width:100%;
+	text-align: center;
+	font-family: 'Archivo Narrow', sans-serif;
+	font-size: 20px;
+	background-color: white;
+	border-radius: 5px;
+}
+.k-link{
+	margin-left: 41%;
+	display: inline-block;
+	text-align: center;
+	font-family: 'Archivo Narrow', sans-serif;
+	font-size: 18px;
+	background-color: white;
+	border-radius: 5px;
+}
+
+.user-shot{
+	display: inline-block;
+	max-width: 500px;
+	max-height: 500px;
+}
+.home-shot{
+	display: inline-block;
+	max-width: 515px;
+	max-height: 515px;
+	margin-left: 4%;
+	margin-right: 1%;
+	float:left;
+}
+.ce-banner{
+	display: inline-block;
+	width:50%;
+	margin-left: 25%;
+	margin-right:25%;
+	text-align: center;
+	font-size: 60px;
+	font-family: 'Archivo Narrow', sans-serif;
+}
+.ce-info1{
+	display: inline-block;
+	width:50%;
+	text-align: center;
+	font-family: 'Archivo Narrow', sans-serif;
+	font-size: 20px;
+	max-height: 69px;
+}
+.ce-info2{
+	display: inline-block;
+	width:50%;
+	text-align: center;
+	font-family: 'Archivo Narrow', sans-serif;
+	font-size: 20px;
+	float:left;
+	max-height: 69px;
+
+}
+
+.ce-link{
+	clear:both;
+	display: inline-block;
+	font-family: 'Archivo Narrow', sans-serif;
+	font-size: 18px;
+	text-align: center;
+	width: 100%;
+}
+
+.compass-shot{
+	display: inline-block;
+	max-width: 500px;
+	max-height: 260.141px;
+}
+.flag-shot{
+	display: inline-block;
+	max-width: 515px;
+	max-height: 260.141px;
+	margin-left: 4%;
+	margin-right: 1%;
+	float:left;
+}
+/*Contact Page Styling*/
+
+.email{
+	clear:both;
+	text-align: right;
+	display: inline-block;
+	width:42%;
+	float:left;
+}
+.address{
+	margin-left: 10%;
+	text-align: left;
+	display: inline-block;
+	width:30%;
+	float:left;
 }
